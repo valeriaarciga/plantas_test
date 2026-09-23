@@ -94,14 +94,30 @@ def main():
         json.dump(resultados_totales, fh, indent=2)
     print(f"guardado en {args.salida}", file=sys.stderr)
 
-    # resumen: cuales instancias/puntos NO cerraron optimalidad (para que
-    # sepas donde el numero reportado es solo el mejor incumbente, no un
-    # optimo certificado)
-    no_cerrados = [f for f in resultados_totales if not f.get("cerro_optimalidad")]
-    if no_cerrados:
-        print(f"\nAVISO: {len(no_cerrados)} puntos NO cerraron optimalidad "
-              f"dentro del time-limit ({args.time_limit}s). Sube --time-limit "
-              f"o interpreta esos valores como cota, no como optimo.", file=sys.stderr)
+    # resumen: distinguir dos cosas MUY distintas que "cerro_optimalidad=False"
+    # mezcla por igual:
+    #   - INFEASIBLE / INF_OR_UNBD: Gurobi PROBO que ese eps no tiene solucion.
+    #     Es una respuesta exacta y definitiva (a veces mas rapido que un
+    #     optimo real) -- NO hace falta mas tiempo, no es un problema.
+    #   - TIME_LIMIT / SUBOPTIMAL / INTERRUPTED: se acabo el tiempo SIN probar
+    #     nada; el numero reportado es solo el mejor incumbente hallado, no
+    #     un optimo certificado. Aqui si conviene subir --time-limit.
+    infactibles = [f for f in resultados_totales
+                   if f["status"] in ("INFEASIBLE", "INF_OR_UNBD")]
+    sin_cerrar = [f for f in resultados_totales
+                  if not f.get("cerro_optimalidad") and f not in infactibles]
+
+    if infactibles:
+        print(f"\n{len(infactibles)} puntos son INFACTIBLES (certificado, no requieren "
+              f"mas tiempo): " +
+              ", ".join(f"{f['instancia']}/eps={f['epsilon']}" for f in infactibles),
+              file=sys.stderr)
+    if sin_cerrar:
+        print(f"\nAVISO: {len(sin_cerrar)} puntos NO cerraron optimalidad dentro del "
+              f"time-limit ({args.time_limit}s) -- el valor reportado es solo el mejor "
+              f"incumbente, no un optimo certificado. Sube --time-limit para esos: " +
+              ", ".join(f"{f['instancia']}/eps={f['epsilon']}" for f in sin_cerrar),
+              file=sys.stderr)
 
 
 if __name__ == "__main__":
