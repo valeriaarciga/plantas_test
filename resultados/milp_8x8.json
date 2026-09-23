@@ -1,0 +1,90 @@
+[
+  {
+    "epsilon": 0,
+    "f1": null,
+    "f2": null,
+    "mip_gap": null,
+    "cota_dual": Infinity,
+    "runtime_s": 0.014000177383422852,
+    "status": "INF_OR_UNBD",
+    "nodos_explorados": 0,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 1,
+    "f1": 57.97070598067479,
+    "f2": 1,
+    "mip_gap": 0.04875505061471092,
+    "cota_dual": 55.14434127641646,
+    "runtime_s": 180.08399987220764,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 20514,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 2,
+    "f1": 57.87875194203783,
+    "f2": 2,
+    "mip_gap": 0.05771420731852014,
+    "cota_dual": 54.53832565311786,
+    "runtime_s": 180.0239999294281,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 11646,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 3,
+    "f1": 57.82186331927328,
+    "f2": 3,
+    "mip_gap": 0.05576505179132611,
+    "cota_dual": 54.59742411660303,
+    "runtime_s": 180.0329999923706,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 8533,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 4,
+    "f1": 57.788595922450284,
+    "f2": 4,
+    "mip_gap": 0.058783719705293294,
+    "cota_dual": 54.39156729758251,
+    "runtime_s": 180.0349998474121,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 8616,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 6,
+    "f1": 57.78749262650581,
+    "f2": 5,
+    "mip_gap": 0.05803853357573598,
+    "cota_dual": 54.43359129544476,
+    "runtime_s": 180.02500009536743,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 11489,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 8,
+    "f1": 57.74634037996369,
+    "f2": 8,
+    "mip_gap": 0.053366172628089265,
+    "cota_dual": 54.66463921060614,
+    "runtime_s": 180.03600001335144,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 12528,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 10,
+    "f1": 57.73544268559532,
+    "f2": 7,
+    "mip_gap": 0.05660984627380932,
+    "cota_dual": 54.467048150613444,
+    "runtime_s": 180.02900004386902,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 10804,
+    "cerro_optimalidad": false
+  }
+]

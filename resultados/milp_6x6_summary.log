@@ -1,0 +1,10 @@
+Instancia 6x6: nV=36 nA=85 cuota=[np.int64(2), np.int64(11), np.int64(2), np.int64(2), np.int64(3), np.int64(2), np.int64(4), np.int64(4), np.int64(5), np.int64(1)]
+
+Tiempo total barrido 6x6: 22.3s
+eps= 0  INF_OR_UNBD (sin incumbente) t=0.01s
+eps= 1  f1*= 30.5868  f2= 1  gap= 0.000%  status=OPTIMAL    t=3.31s
+eps= 2  f1*= 30.4194  f2= 2  gap= 0.000%  status=OPTIMAL    t=4.88s
+eps= 3  f1*= 30.3411  f2= 3  gap= 0.000%  status=OPTIMAL    t=6.45s
+eps= 4  f1*= 30.2744  f2= 4  gap= 0.000%  status=OPTIMAL    t=4.44s
+eps= 5  f1*= 30.2063  f2= 5  gap= 0.096%  status=OPTIMAL    t=2.96s
+guardado en resultados/milp_6x6.json

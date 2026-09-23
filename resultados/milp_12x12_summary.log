@@ -1,0 +1,11 @@
+Instancia 12x12: nV=144 nA=385 cuota=[np.int64(9), np.int64(43), np.int64(9), np.int64(9), np.int64(11), np.int64(8), np.int64(16), np.int64(14), np.int64(19), np.int64(6)]
+Nodos preexistentes: 24
+
+Tiempo total barrido 12x12: 1083.3s
+eps= 0  f1*=135.3326  f2= 0  gap= 6.695%  cota_dual=126.2719  status=TIME_LIMIT t=180.04s nodos=1408
+eps= 1  f1*=135.0388  f2= 1  gap= 6.857%  cota_dual=125.7791  status=TIME_LIMIT t=180.09s nodos=944
+eps= 2  f1*=134.9067  f2= 2  gap= 6.869%  cota_dual=125.6404  status=TIME_LIMIT t=180.18s nodos=1287
+eps= 3  f1*=134.8726  f2= 3  gap= 6.926%  cota_dual=125.5316  status=TIME_LIMIT t=180.08s nodos=1119
+eps= 5  f1*=134.8244  f2= 5  gap= 6.917%  cota_dual=125.4991  status=TIME_LIMIT t=180.07s nodos=1280
+eps= 8  f1*=134.7961  f2= 8  gap= 6.859%  cota_dual=125.5506  status=TIME_LIMIT t=180.48s nodos=1398
+guardado en resultados/milp_12x12.json

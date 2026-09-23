@@ -1,0 +1,12 @@
+Instancia 10x10: nV=100 nA=261 cuota=[np.int64(6), np.int64(30), np.int64(6), np.int64(6), np.int64(8), np.int64(6), np.int64(11), np.int64(10), np.int64(13), np.int64(4)]
+Nodos preexistentes: 17
+
+Tiempo total barrido 10x10: 1080.8s
+eps= 0  INF_OR_UNBD (sin incumbente) t=0.02s
+eps= 1  f1*= 89.8370  f2= 1  gap= 5.985%  cota_dual= 84.4602  status=TIME_LIMIT t=180.04s nodos=6474
+eps= 2  f1*= 89.7707  f2= 2  gap= 6.492%  cota_dual= 83.9424  status=TIME_LIMIT t=180.03s nodos=3946
+eps= 3  f1*= 89.7084  f2= 3  gap= 6.515%  cota_dual= 83.8638  status=TIME_LIMIT t=180.02s nodos=4071
+eps= 5  f1*= 89.6578  f2= 5  gap= 6.394%  cota_dual= 83.9247  status=TIME_LIMIT t=180.02s nodos=4492
+eps= 7  f1*= 89.6046  f2= 7  gap= 6.280%  cota_dual= 83.9778  status=TIME_LIMIT t=180.02s nodos=4320
+eps=10  f1*= 89.5766  f2= 8  gap= 6.367%  cota_dual= 83.8737  status=TIME_LIMIT t=180.03s nodos=3670
+guardado en resultados/milp_10x10.json

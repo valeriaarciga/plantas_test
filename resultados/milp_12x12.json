@@ -1,0 +1,68 @@
+[
+  {
+    "epsilon": 0,
+    "f1": 135.33257046626076,
+    "f2": 0,
+    "mip_gap": 0.06695131913093914,
+    "cota_dual": 126.2718763521638,
+    "runtime_s": 180.04199981689453,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 1408,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 1,
+    "f1": 135.03883044491255,
+    "f2": 1,
+    "mip_gap": 0.06857089955386172,
+    "cota_dual": 125.77909636660351,
+    "runtime_s": 180.08700013160706,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 944,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 2,
+    "f1": 134.9067100366603,
+    "f2": 2,
+    "mip_gap": 0.06868690797059648,
+    "cota_dual": 125.64038525975623,
+    "runtime_s": 180.18099999427795,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 1287,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 3,
+    "f1": 134.87257176817488,
+    "f2": 3,
+    "mip_gap": 0.06925757619840553,
+    "cota_dual": 125.53162435186559,
+    "runtime_s": 180.0829999446869,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 1119,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 5,
+    "f1": 134.82443409458122,
+    "f2": 5,
+    "mip_gap": 0.06916665149248369,
+    "cota_dual": 125.49907944888999,
+    "runtime_s": 180.07299995422363,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 1280,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 8,
+    "f1": 134.7960646466346,
+    "f2": 8,
+    "mip_gap": 0.068588860080105,
+    "cota_dual": 125.55055622923776,
+    "runtime_s": 180.48399996757507,
+    "status": "TIME_LIMIT",
+    "nodos_explorados": 1398,
+    "cerro_optimalidad": false
+  }
+]

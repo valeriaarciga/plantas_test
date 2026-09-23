@@ -1,0 +1,79 @@
+
+======================================================================
+Instancia 6x6 (nV=36, nA=85)  ref_point=(51.81729254718057, 20.4)
+MILP: todos los puntos cerraron a optimalidad = True
+MILP:    5 puntos  tiempo_total=    22.1s  HV=  418.4565
+    f1=  30.5868  f2=1
+    f1=  30.4194  f2=2
+    f1=  30.3411  f2=3
+    f1=  30.2744  f2=4
+    f1=  30.2063  f2=5
+NSGA-II: 5 puntos  tiempo=     5.0s  HV=  418.4565
+    f1=  30.5868  f2=1
+    f1=  30.4194  f2=2
+    f1=  30.3411  f2=3
+    f1=  30.2744  f2=4
+    f1=  30.2063  f2=5
+Razon HV(NSGA-II)/HV(MILP) = 100.0000%
+Tiempo MILP / Tiempo NSGA-II = 4.4x
+Gap relativo en f1 (al f2 minimo de cada frente): +0.00%
+
+======================================================================
+Instancia 8x8 (nV=64, nA=161)  ref_point=(94.09376241572866, 31.2)
+MILP: todos los puntos cerraron a optimalidad = False
+MILP:    7 puntos  tiempo_total=  1260.3s  HV= 1097.3990
+    f1=  57.9707  f2=1
+    f1=  57.8788  f2=2
+    f1=  57.8219  f2=3
+    f1=  57.7886  f2=4
+    f1=  57.7875  f2=5
+    f1=  57.7354  f2=7
+    f1=  57.7463  f2=8
+NSGA-II: 4 puntos  tiempo=     6.1s  HV= 1085.3612
+    f1=  58.3185  f2=1
+    f1=  58.2332  f2=2
+    f1=  58.1940  f2=3
+    f1=  58.1424  f2=5
+Razon HV(NSGA-II)/HV(MILP) = 98.9031%
+Tiempo MILP / Tiempo NSGA-II = 205.1x
+Gap relativo en f1 (al f2 minimo de cada frente): +0.60%
+
+======================================================================
+Instancia 10x10 (nV=100, nA=261)  ref_point=(148.26617994939227, 50.4)
+MILP: todos los puntos cerraron a optimalidad = False
+MILP:    6 puntos  tiempo_total=  1080.2s  HV= 2898.3566
+    f1=  89.8370  f2=1
+    f1=  89.7707  f2=2
+    f1=  89.7084  f2=3
+    f1=  89.6578  f2=5
+    f1=  89.6046  f2=7
+    f1=  89.5766  f2=8
+NSGA-II: 6 puntos  tiempo=     5.0s  HV= 2651.3363
+    f1=  94.8194  f2=1
+    f1=  94.7049  f2=2
+    f1=  94.6612  f2=3
+    f1=  94.6186  f2=4
+    f1=  94.5905  f2=5
+    f1=  94.5860  f2=6
+Razon HV(NSGA-II)/HV(MILP) = 91.4772%
+Tiempo MILP / Tiempo NSGA-II = 216.5x
+Gap relativo en f1 (al f2 minimo de cada frente): +5.55%
+
+======================================================================
+Instancia 12x12 (nV=144, nA=385)  ref_point=(224.92523763947284, 78.0)
+MILP: todos los puntos cerraron a optimalidad = False
+MILP:    6 puntos  tiempo_total=  1080.9s  HV= 7028.9475
+    f1= 135.3326  f2=0
+    f1= 135.0388  f2=1
+    f1= 134.9067  f2=2
+    f1= 134.8726  f2=3
+    f1= 134.8244  f2=5
+    f1= 134.7961  f2=8
+NSGA-II: 4 puntos  tiempo=     5.2s  HV= 6237.6959
+    f1= 140.7691  f2=4
+    f1= 140.7154  f2=5
+    f1= 140.7068  f2=6
+    f1= 140.6279  f2=7
+Razon HV(NSGA-II)/HV(MILP) = 88.7430%
+Tiempo MILP / Tiempo NSGA-II = 207.5x
+Gap relativo en f1 (al f2 minimo de cada frente): +4.02%

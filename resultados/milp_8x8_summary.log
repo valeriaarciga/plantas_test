@@ -1,0 +1,13 @@
+Instancia 8x8: nV=64 nA=161 cuota=[np.int64(4), np.int64(19), np.int64(4), np.int64(4), np.int64(5), np.int64(4), np.int64(7), np.int64(6), np.int64(8), np.int64(3)]
+Nodos preexistentes: 13
+
+Tiempo total barrido 8x8: 1260.9s
+eps= 0  INF_OR_UNBD (sin incumbente) t=0.01s
+eps= 1  f1*= 57.9707  f2= 1  gap= 4.876%  cota_dual= 55.1443  status=TIME_LIMIT t=180.08s nodos=20514
+eps= 2  f1*= 57.8788  f2= 2  gap= 5.771%  cota_dual= 54.5383  status=TIME_LIMIT t=180.02s nodos=11646
+eps= 3  f1*= 57.8219  f2= 3  gap= 5.577%  cota_dual= 54.5974  status=TIME_LIMIT t=180.03s nodos=8533
+eps= 4  f1*= 57.7886  f2= 4  gap= 5.878%  cota_dual= 54.3916  status=TIME_LIMIT t=180.03s nodos=8616
+eps= 6  f1*= 57.7875  f2= 5  gap= 5.804%  cota_dual= 54.4336  status=TIME_LIMIT t=180.03s nodos=11489
+eps= 8  f1*= 57.7463  f2= 8  gap= 5.337%  cota_dual= 54.6646  status=TIME_LIMIT t=180.04s nodos=12528
+eps=10  f1*= 57.7354  f2= 7  gap= 5.661%  cota_dual= 54.4670  status=TIME_LIMIT t=180.03s nodos=10804
+guardado en resultados/milp_8x8.json

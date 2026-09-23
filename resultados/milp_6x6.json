@@ -1,0 +1,68 @@
+[
+  {
+    "epsilon": 0,
+    "f1": null,
+    "f2": null,
+    "mip_gap": null,
+    "cota_dual": Infinity,
+    "runtime_s": 0.0070002079010009766,
+    "status": "INF_OR_UNBD",
+    "nodos_explorados": 0,
+    "cerro_optimalidad": false
+  },
+  {
+    "epsilon": 1,
+    "f1": 30.586824806021337,
+    "f2": 1,
+    "mip_gap": 0.0,
+    "cota_dual": 30.586824806021333,
+    "runtime_s": 3.311999797821045,
+    "status": "OPTIMAL",
+    "nodos_explorados": 87,
+    "cerro_optimalidad": true
+  },
+  {
+    "epsilon": 2,
+    "f1": 30.419400460468246,
+    "f2": 2,
+    "mip_gap": 0.0,
+    "cota_dual": 30.419400460468246,
+    "runtime_s": 4.879999876022339,
+    "status": "OPTIMAL",
+    "nodos_explorados": 2876,
+    "cerro_optimalidad": true
+  },
+  {
+    "epsilon": 3,
+    "f1": 30.341141036915236,
+    "f2": 3,
+    "mip_gap": 0.0,
+    "cota_dual": 30.34114103691524,
+    "runtime_s": 6.449000120162964,
+    "status": "OPTIMAL",
+    "nodos_explorados": 3654,
+    "cerro_optimalidad": true
+  },
+  {
+    "epsilon": 4,
+    "f1": 30.27444849380177,
+    "f2": 4,
+    "mip_gap": 0.0,
+    "cota_dual": 30.274448493801767,
+    "runtime_s": 4.438999891281128,
+    "status": "OPTIMAL",
+    "nodos_explorados": 1362,
+    "cerro_optimalidad": true
+  },
+  {
+    "epsilon": 5,
+    "f1": 30.206309556949638,
+    "f2": 5,
+    "mip_gap": 0.0009577784141462536,
+    "cota_dual": 30.17737860568497,
+    "runtime_s": 2.9639999866485596,
+    "status": "OPTIMAL",
+    "nodos_explorados": 934,
+    "cerro_optimalidad": true
+  }
+]

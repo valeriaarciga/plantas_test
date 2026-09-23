@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# logs verbosos de depuracion (los *_summary.log ya dan lo esencial)
+resultados/*_full.log
+
+# duplicados en base64 del mismo contenido que ya esta en mapas/*.png y las vistas HTML embebidas
+resultados/mapas_b64.json
+resultados/pareto_6x6_b64.txt
+resultados/pareto_png_b64.txt
+resultados/pareto_6x6_view.html
+resultados/pareto_presentacion_view.html
